@@ -1,0 +1,170 @@
+.s1{
+ filter: blur(5px);
+ z-index: -1;
+}
+
+body{
+    background-color: rgb(131, 242, 242);
+    height: 1000px;
+}
+
+.head{
+    width: auto;
+    height: 100px;
+    background-color: rgb(239, 240, 236);
+    box-shadow: 0px 2px 10px grey;
+}
+
+.a{
+    text-align: center;
+    padding-top: 30px;
+    color: cadetblue;
+}
+
+/* add button */
+
+.add{
+ margin-top: 30px;
+ margin-left: 100px;
+}
+
+#img{
+    position: relative;
+    left: 55%;
+}
+
+#list{
+    position: relative;
+    left: 710px;
+    bottom: 15px;
+    font-size: 25px;
+}
+
+/* box section */
+.sec{
+    display: flex;
+    margin-left: 200;
+}
+
+.b{
+    width: 200px;
+    height: 240px;
+    border: 2px #161616 solid;
+    margin-top: 50px;
+    margin-left: 300px;
+    border-radius: 10%;
+    background: rgb(255, 241, 241);
+}
+
+.text{
+    color: #E74C3C;
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px gray solid;
+    line-height: 50px;
+}
+
+.striked{
+    margin-top: 20px;
+    margin-left: 40px;
+    text-decoration: line-through;
+    font-size: 18px;
+    color: red;
+    font-weight: lighter
+}
+
+.pt{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+#PT{
+    position: relative;
+    top: 3px;
+    color: black;
+}
+
+/* box setion 2 */
+
+.b1{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 200px;
+    height: 240px;
+    margin-top: 50px;
+    margin-left: 90px;
+    background: rgb(255, 241, 241);
+}
+
+.b2{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 200px;
+    height: 240px;
+    background-color: rgb(255, 241, 241);
+    position: relative;
+    top: 350px;
+    right: 790px;
+}
+
+/* box setion 2 */
+.sec2{
+    width: 500px;
+    border: 2px solid rgb(20, 20, 20);
+    height: 180px;
+    margin-top: 200px;
+    margin-left: 500px;
+    border-radius: 5%;
+    position: relative;
+    bottom: 450px;
+    box-shadow: 8px 4px rgb(152, 97, 97);
+    background-color: white;
+}
+
+.back{
+    width: 40px;
+    position: absolute;
+    left: 20px;
+    
+}
+
+.add1{
+    position: absolute;
+    font-size: 30px;
+    left: 180px;
+    color: #E74C3C;
+}
+
+input{
+    position: absolute;
+    left: 60px;
+    top: 60px;
+    width: 350px;
+    height: 30px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 40%;
+    color: white;
+    background-color: rgb(249, 42, 5);
+    box-shadow: 5px 5px rgb(113, 153, 183);
+    position: absolute;
+    bottom: 30px;
+    right: 200px;
+}
+
+.b2{
+    border: 2px solid black;
+    border-radius: 10%;
+    width: 200px;
+    height: 240px;
+    background-color: rgb(255, 241, 241);
+    position: relative;
+    top: 350px;
+    right: 790px;
+}
+    
